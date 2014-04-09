@@ -1,9 +1,22 @@
 {
+    "name": "mangocms/core",
+    "description": "A cms built on top of the symfony framework",
     "require": {
+        "php": ">=5.3.0",
         "symfony/class-loader": "2.1.*",
         "symfony/browser-kit",
         "symfony/debug",
-        
-        
+        "symfony/event-dispatcher",
+        "symfony/http-kernel",
+        "symfony/yaml",
+        "symfony/config",
+        "symfony/filesystem",
+        "symfony/process",
+        "symfony/finder",
+        "symfony/console",
+        "symfony/dom-crawler",
+        "symfony/css-selector",
+        "symfony/routing",
+        "symfony/dependency-injection",
     }
 }
